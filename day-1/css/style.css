@@ -93,6 +93,10 @@ p:hover {
   position: relative;
 }
 
+#default-login {
+  position: relative;
+}
+
 #alt-login {
  color: #E57373;
  font-size: 1.4em;
