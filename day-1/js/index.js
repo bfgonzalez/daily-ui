@@ -6,30 +6,30 @@ $(document).ready(function() {
       
       // animation for #email-container
       if ($("#email-container").css("opacity") == "1") {
-          $("#email-container").animate({opacity: "0"});
+          $("#email-container").stop().animate({opacity: "0"});
       } else {
-          $("#email-container").animate({opacity: "1"});
+          $("#email-container").stop().animate({opacity: "1"});
       }
       
       // animation for #login-container
       if ($("#login-container").css("bottom") == "30px") {
-          $("#login-container").animate({bottom: "0"});
+          $("#login-container").stop().animate({bottom: "1px"});
       } else {
-          $("#login-container").animate({bottom: "30px"});
+          $("#login-container").stop().animate({bottom: "30px"});
       }
       
       // animation for button 
       if ($("button").css("bottom") == "30px") {
-          $("button").animate({bottom: "0"});
+          $("button").stop().animate({bottom: "1px"});
       } else {
-          $("button").animate({bottom: "30px"});
+          $("button").stop().animate({bottom: "30px"});
       }
       
       // animation for #alt-login-container 
       if ($("#alt-login-container").css("bottom") == "30px") {
-          $("#alt-login-container").animate({bottom: "0"});
+          $("#alt-login-container").stop().animate({bottom: "1px"});
       } else {
-          $("#alt-login-container").animate({bottom: "30px"});
+          $("#alt-login-container").stop().animate({bottom: "30px"});
       }
       
       var currentPage = $("#default-login").text();
