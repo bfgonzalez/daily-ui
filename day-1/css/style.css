@@ -9,7 +9,7 @@ body {
 #container {
   background-color: #F3E5F5;
   width:  15em;
-  height: 21em;
+  height: auto;
   padding: 2em;
   margin: auto;
   margin-top: 4em;
