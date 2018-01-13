@@ -1,116 +1,121 @@
 body {
- /* fallback color if browser doesn't support gradient */
- background-color: #904e95; 
+  /* fallback color if browser doesn't support gradient */
+  background-color: #904e95; 
+  
+  /* gradient */ 
+  background-image: linear-gradient(to right, #e96443, #904e95);
+ }
  
- /* gradient */ 
- background-image: linear-gradient(to right, #e96443, #904e95);
-}
-
-#container {
-  background-color: #F3E5F5;
-  width:  15em;
-  height: auto;
-  padding: 2em;
-  margin: auto;
-  margin-top: 4em;
-  border-radius: 15px;
-  text-align: center;
-  overflow: hidden;
-}
-
-h1 {
-  font-family: "Questrial", sans-serif;
-  font-size: 1.7em;
+ #container {
+   background-color: #F3E5F5;
+   width:  15em;
+   height: auto;
+   padding: 2em;
+   margin: auto;
+   margin-top: 4em;
+   border-radius: 15px;
+   text-align: center;
+   overflow: hidden;
+ }
+ 
+ h1 {
+   font-family: "Questrial", sans-serif;
+   font-size: 1.7em;
+   color: #E57373;
+   margin-top: 0.5em;
+ }
+ 
+ #input-section {
+   margin-top: 1em;
+ }
+ 
+ input {
+   font-size: 1em;
+   width: 12em;
+   outline: none;
+   border: none;
+   background: transparent;
+   margin: 0.5em;  
+ }
+ 
+ input:hover {
+   border-bottom: 2px solid #E57373;
+ }
+ 
+ input::-webkit-input-placeholder {
+   color: black;
+   opacity: 0.7;
+ }
+ 
+ #email-container {
+   position: relative;
+ }
+ 
+ #login-container {
+   position: relative;
+ }
+ 
+ .icons {
+   color: #E57373;
+ }
+ 
+ button {
+   width: 11em;
+   height: 40px;
+   color: #F3E5F5;
+   font-size: 1.3em;
+   font-family: "Roboto", sans-serif;
+   background-color: #E57373;
+   border: 0px solid;
+   outline: none;
+   margin-top: 1em;
+   cursor: pointer;
+   position: relative;
+ }
+ 
+ button:hover {
+   background-color: #BC5F5F;
+ }
+ 
+ p {
+   font-family: "Roboto", sans-serif;
+   color: #2C3332;
+   font-size: 0.9em;
+   margin-top: 0.5em;
+   cursor: pointer;
+ }
+ 
+ p:hover {
+   color: #BC5F5F;
+ }
+ 
+ #forgot-password {
+   position: relative;
+ }
+ 
+ #default-login {
+   position: relative;
+ }
+ 
+ #alt-login {
   color: #E57373;
-  margin-top: 0.5em;
-}
-
-#input-section {
-  margin-top: 1em;
-}
-
-input {
-  font-size: 1em;
-  width: 12em;
-  outline: none;
-  border: none;
-  background: transparent;
-  margin: 0.5em;  
-}
-
-input:hover {
-  border-bottom: 2px solid #E57373;
-}
-
-input::-webkit-input-placeholder {
-  color: black;
-  opacity: 0.7;
-}
-
-#email-container {
-  position: relative;
-}
-
-#login-container {
-  position: relative;
-}
-
-.icons {
-  color: #E57373;
-}
-
-button {
-  width: 11em;
-  height: 40px;
-  color: #F3E5F5;
-  font-size: 1.3em;
-  font-family: "Roboto", sans-serif;
-  background-color: #E57373;
-  border: 0px solid;
-  outline: none;
-  margin-top: 1em;
-  cursor: pointer;
-  position: relative;
-}
-
-button:hover {
-  background-color: #BC5F5F;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  color: #2C3332;
-  font-size: 0.9em;
-  margin-top: 0.5em;
-  cursor: pointer;
-}
-
-p:hover {
-  color: #BC5F5F;
-}
-
-#forgot-password {
-  position: relative;
-}
-
-#alt-login {
- color: #E57373;
- font-size: 1.4em;
-}
-
-.alt-icons {
-  font-size: 1.6em;
-  color: #2C3332;
-  margin: 0.2em;
-  margin-top: -0.3em;
-  cursor: pointer;
-}
-
-.alt-icons:hover {
-  color: #E57373;
-}
-
-#alt-login-container {
-  position: relative;
-}
-
+  font-size: 1.4em;
+ }
+ 
+ .alt-icons {
+   font-size: 1.6em;
+   color: #2C3332;
+   margin: 0.2em;
+   margin-top: -0.3em;
+   cursor: pointer;
+ }
+ 
+ .alt-icons:hover {
+   color: #E57373;
+ }
+ 
+ #alt-login-container {
+   position: relative;
+ }
+ 
+ 
