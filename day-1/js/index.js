@@ -36,7 +36,7 @@ $(document).ready(function() {
         var switchPage = currentPage == "Already have an account? Log in!" ? "Don't have an account? Create one!" : "Already have an account? Log in!";
         
         var currentHeader = $("h1").text();
-        var switchHeader = currentHeader == "Welcome Back!" ? "Create an Account" : "Welcome Back!";
+        var switchHeader = currentHeader == "Welcome Back!" ? "Create Account" : "Welcome Back!";
         
         var currentButton = $("button").text();
         var switchButton = currentButton == "Log in" ? "Get Started" : "Log in";
